@@ -9,19 +9,39 @@ body {
 h1 {
     color: black;
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 600;
     font-family: "Brush Script MT",Helvetica, sans-serif;
+    margin: 20px;
 }
 
 h2 {
     color:black;
     font-size: 30px;
+    font-weight: 500;
+    background-color: rgb(213, 255, 234);
+    padding: 16px;
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px;
+}
 
+div {
+    background-color: whitesmoke;
+    margin: 20px;
+}
+
+p {
+    margin: 25px;
+    font-size: 20px;
 }
 
 img {
     height: 300px;
     width: auto;
+    display: block;
+    margin: 20px;
 }
 
 a {
@@ -36,4 +56,44 @@ a:visited {
 
 a:hover {
     color: blueviolet;
+}
+
+.index-h1 {
+    background-color: rgb(213, 255, 234);
+    padding: 16px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 20px;
+}
+
+.recipe-page-h1 {
+    background-color: rgb(213, 255, 234);
+    padding: 16px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 150px;
+    text-align: center;
+}
+
+.index-ul {
+    background-color: whitesmoke;
+    padding: 16px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.recipe-page-ul {
+    font-size: 20px;
+    background-color: whitesmoke;
+    margin: 20px;
+}
+.recipe-page-ol {
+    font-size: 20px;
+    background-color: whitesmoke;
+    margin: 20px;
+}
+
+li {
+    margin: 3px;
 }
